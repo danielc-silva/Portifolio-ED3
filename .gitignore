@@ -1,0 +1,44 @@
+# Arquivos de compilação e objetos
+*.o
+*.obj
+*.d
+
+# Bibliotecas estáticas e dinâmicas
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+
+# Executáveis
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Pastas de Build (CMake, Makefiles, etc)
+build/
+bin/
+obj/
+out/
+Release/
+Debug/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Arquivos gerados por IDEs e Editores
+.vscode/
+.idea/
+*.suo
+*.user
+*.sln
+*.cbp
+*.workspace
+
+# Arquivos de Sistema Operacional
+.DS_Store
+Thumbs.db
